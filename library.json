@@ -1,0 +1,27 @@
+{
+  "name": "NeoScreen",
+  "keywords": "neopixel,ws1812,screen,matrix",
+  "description": "Wrapper around NeoPixel strands to prexsent them as a 2D 'screen' even if irregular shapes",
+  "repository":
+  {
+    "type": "git",
+    "url": "https://github.com/jeremypoulter/NeoScreen.git"
+  },
+  "authors":
+  [
+    {
+      "name": "Jeremy Poulter",
+      "email": "jeremy@bigjungle.net",
+      "maintainer": true
+    }
+  ],
+  "version": "0.0.1",
+  "frameworks": "arduino",
+  "platforms": "*",
+  "dependencies": [
+    {
+      "name": "Micro Debug",
+      "version": "~0.0.2"
+    }
+  ]
+}
